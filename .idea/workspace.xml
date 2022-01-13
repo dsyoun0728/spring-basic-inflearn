@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b38a99f-814c-4c96-a3f0-2ec29f8e2c9e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/spring/springbasicinflearn/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/spring/springbasicinflearn/domain/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/spring/springbasicinflearn/repository/MemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/spring/springbasicinflearn/repository/MemoryMemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice/spring/springbasicinflearn/service/MemberService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/spring/springbasicinflearn/repository/MemoryMemberRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/practice/spring/springbasicinflearn/service/MemberServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice/spring/springbasicinflearn/controller/MemberController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/spring/springbasicinflearn/repository/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/spring/springbasicinflearn/repository/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/spring/springbasicinflearn/repository/MemoryMemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/spring/springbasicinflearn/repository/MemoryMemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practice/spring/springbasicinflearn/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/spring/springbasicinflearn/service/MemberService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +25,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -158,7 +155,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642037398436</updated>
-      <workItem from="1642037400592" duration="2026000" />
+      <workItem from="1642037400592" duration="6121000" />
     </task>
     <servers />
   </component>
