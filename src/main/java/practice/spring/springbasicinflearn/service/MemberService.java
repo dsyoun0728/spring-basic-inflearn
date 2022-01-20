@@ -22,18 +22,9 @@ public class MemberService {
      * @return memberRepository에 저장된 멤버의 id
      */
     public Long join(Member member) {
-
-        long start = System.currentTimeMillis();
-
-        try {
-            validateDuplicateMember(member); //중복 회원 검증
-            memberRepository.save(member);
-            return member.getId();
-        } finally {
-            long finish = System.currentTimeMillis();
-            long timeMs = finish - start;
-            System.out.println("join " + timeMs + "ms");
-        }
+        validateDuplicateMember(member); //중복 회원 검증
+        memberRepository.save(member);
+        return member.getId();
     }
 
     /**
@@ -41,15 +32,7 @@ public class MemberService {
      * @return memberRepository에 저장된 모든 회원
      */
     public List<Member> findMembers() {
-        long start = System.currentTimeMillis();
-
-        try {
-            return memberRepository.findAll();
-        } finally {
-            long finish = System.currentTimeMillis();
-            long timeMs = finish - start;
-            System.out.println("findMembers " + timeMs + "ms");
-        }
+        return memberRepository.findAll();
     }
 
     /**
