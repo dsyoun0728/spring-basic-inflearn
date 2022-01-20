@@ -1,11 +1,13 @@
 package practice.spring.springbasicinflearn.service;
 
+import org.springframework.transaction.annotation.Transactional;
 import practice.spring.springbasicinflearn.domain.Member;
 import practice.spring.springbasicinflearn.repository.MemberRepository;
 
 import java.util.List;
 import java.util.Optional;
 
+@Transactional
 public class MemberService {
     private final MemberRepository memberRepository;
 
